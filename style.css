@@ -26,11 +26,51 @@ a {
     color: #F9FAF8
 }
 
+.partone {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.lap2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+
+.mainimg {
+    height: 400px;
+    width: auto;
+}
+
+.maintext {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+button {
+    background-color: #3882F6;
+    width: 20%;
+    color: white;
+    border-radius: 12px;
+}
+
 .secondarytext
 .headerlinks {
     font-size: 24px;
 }
-
 
 .laplogo {
     height: 100px;
