@@ -5,4 +5,51 @@
 
 * {
     font-family: fac, sans-serif;
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 24px;
+}
+
+.logo,
+.awesome,
+.headerlinks,
+.secondarytext {
+    color: #F9FAF8
+}
+
+.secondarytext
+.headerlinks {
+    font-size: 24px;
+}
+
+
+.laplogo {
+    height: 100px;
+    width: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.headerlinks {
+    display: flex;
+    gap: 13px;
+}
+
+.header,
+.partone {
+    background-color: #1f2937;
 }
