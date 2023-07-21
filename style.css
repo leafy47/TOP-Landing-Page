@@ -1,0 +1,8 @@
+@font-face {
+    font-family: fac;
+    src: url(./Fonts/Roboto/Roboto-Light.ttf);
+}
+
+* {
+    font-family: fac, sans-serif;
+}
