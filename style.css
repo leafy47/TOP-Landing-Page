@@ -17,6 +17,7 @@ a {
     flex-direction: column;
     gap: 5px;
     font-size: 24px;
+    text-align: center;
 }
 
 .logo,
@@ -58,6 +59,43 @@ a {
 .maintext {
     font-size: 48px;
     font-weight: 800;
+}
+
+.henchtitle {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+    margin: 10px;
+}
+
+.foursquare {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.henchman {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 0 0;
+    text-align: center;
+}
+
+.henchimg {
+    border-color: blue;
+    border: 4px;
+    height: 200px;
+    width: auto;
+    border-radius: 6px;
+}
+
+.henchdescr {
+    font-size: 18px;
+    color:#1f2937;
 }
 
 button {
