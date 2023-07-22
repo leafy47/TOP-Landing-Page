@@ -38,10 +38,11 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     width: 35%;
     flex-wrap: wrap;
     padding: 20px;
+    gap: 9px;
 }
 
 .lap2 {
@@ -123,11 +124,46 @@ a {
     text-align: right;
 }
 
+.partfour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.classaction {
+    width: 65%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    font-size: 24px;
+    color: white;
+    background-color: #3882F6;
+    font-weight: 800;
+    border-radius: 12px;
+}
+
+.classaction p {
+    margin: 5px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.classaction button {
+    border-color: white;
+}
+
+
 button {
     background-color: #3882F6;
-    width: 20%;
+    width: 90px;
     color: white;
-    border-radius: 12px;
+    border-color: #3882F6;
+    border-radius: 6px;
+    padding: 10px;
+    border-style: solid;
 }
 
 .secondarytext
