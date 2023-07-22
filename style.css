@@ -98,6 +98,31 @@ a {
     color:#1f2937;
 }
 
+.partthree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    padding: 70px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 55%;
+}
+
+.quote span {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    text-align: right;
+}
+
 button {
     background-color: #3882F6;
     width: 20%;
