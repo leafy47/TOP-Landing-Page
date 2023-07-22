@@ -3,6 +3,10 @@
     src: url(./Fonts/Roboto/Roboto-Light.ttf);
 }
 
+body {
+    margin: 0px;
+}
+
 * {
     font-family: fac, sans-serif;
     text-decoration: none;
@@ -27,11 +31,15 @@ a {
     color: #F9FAF8
 }
 
+.parttwo {
+    padding: 40px;
+}
+
 .partone {
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding: 20px;
+    padding: 40px;
 }
 
 .awesome {
@@ -41,7 +49,7 @@ a {
     align-items: flex-start;
     width: 35%;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 40px;
     gap: 9px;
 }
 
@@ -76,6 +84,7 @@ a {
     gap: 60px;
     flex-wrap: wrap;
     margin: 20px;
+    padding: 20px;
 }
 
 .henchman {
@@ -128,7 +137,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 70px;
 }
 
 .classaction {
@@ -155,6 +164,15 @@ a {
     border-color: white;
 }
 
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
 
 button {
     background-color: #3882F6;
@@ -164,6 +182,7 @@ button {
     border-radius: 6px;
     padding: 10px;
     border-style: solid;
+    font-weight: 700;
 }
 
 .secondarytext
@@ -180,7 +199,7 @@ button {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 15px;
+    padding-top: 12px;
 }
 
 .headerlinks {
